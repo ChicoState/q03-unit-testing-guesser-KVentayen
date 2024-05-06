@@ -8,8 +8,8 @@ using std::string;
 class Guesser
 {
 private:
-  string m_secret;
-  unsigned int m_remaining;
+  string m_secret; // The secret string
+  unsigned int m_remaining; //The number of guesses remaining
 
   /*
     Returns an whole number representing the distance between the guess,
